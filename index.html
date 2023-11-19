@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./design/normalize.css">
+  <link rel="stylesheet" href="./design/fonts.css">
+  <link rel="stylesheet" href="./design/style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Result summary component  -->
+  <div class="result-summary-component">
+
+    <!-- RESULT COMPONENT     -->
+    <div class="result_component result">
+      <h1 class="result__title">Your Result</h1>
+      <div class="result__circle">
+        <h2 class="result__circle--number">76</h2>
+        <p class="result__circle--100">of 100</p>
+      </div>
+      <h2 class="result_component__page_title">Great</h2>
+      <p class="result_component__text">Your performance exceed 65% of the people conducting the test here!</p>
+    </div>
+
+    <!-- SUMMARY COMPONENT -->
+    <div class="summary_component summary">
+      <h1 class="summary__title">Summary</h1>
+
+      <div class="summary__wrap wrapper">
+        <!-- REACTION INNER  -->
+        <div class="wrapper--reaction inner">
+          <div class="inner__name">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction icon" class="inner--icon">
+            <h2 class="inner__title reaction__title" >Reaction</h2>
+          </div>
+
+          <div class="inner__number">
+            <span class="inner__number__bold">80</span>
+            <span class="inner__number__normal">/ 100</span>
+          </div>
+        </div>
+
+         <!-- MEMORY INNER  -->
+         <div class="wrapper--memory inner">
+          <div class="inner__name">
+            <img src="./assets/images/icon-memory.svg" alt="memory icon" class="inner--icon">
+            <h2 class="inner__title memory__title">Memory</h2>
+          </div>
+
+          <div class="inner__number">
+            <span class="inner__number__bold">92</span>
+            <span class="inner__number__normal">/ 100</span>
+          </div>
+        </div>
+
+         <!-- VERBAL INNER  -->
+         <div class="wrapper--verbal inner">
+          <div class="inner__name">
+            <img src="./assets/images/icon-verbal.svg" alt="verbal icon" class="inner--icon">
+            <h2 class="inner__title verbal__title">Verbal</h2>
+          </div>
+
+          <div class="inner__number">
+            <span class="inner__number__bold">61</span>
+            <span class="inner__number__normal">/ 100</span>
+          </div>
+        </div>
+
+         <!-- VISUAL INNER  -->
+         <div class="wrapper--visual inner">
+          <div class="inner__name">
+            <img src="./assets/images/icon-visual.svg" alt="visual icon" class="inner--icon">
+            <h2 class="inner__title visual__title">Visual</h2>
+          </div>
+
+          <div class="inner__number">
+            <span class="inner__number__bold">73</span>
+            <span class="inner__number__normal">/ 100</span>
+          </div>
+        </div>
+
+
+       </div>
+
+       <!-- SUMMARY BUTTON  -->
+       <a href="#" class="summary__button">Continue</a>
+       
+       </div>
+       </div> 
+</body>
+</html>
